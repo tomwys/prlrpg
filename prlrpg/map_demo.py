@@ -6,7 +6,7 @@ if __name__ == '__main__':
     with open('sample_map.yaml') as f:
         data = yaml.load(f)
     map = Map(data)
-    map.position.look()
     while True:
+        print(map.position.look())
         direction = input()
         map.move(direction)
