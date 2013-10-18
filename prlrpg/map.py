@@ -1,5 +1,7 @@
 """Definitions for maps."""
 
+from .item import Item
+
 class InvalidMove(BaseException):
     """Exception for invalid moves."""
 
@@ -17,7 +19,7 @@ class Location(object):
         self.directions = directions
         self.items = {
             itemname: Item(itemname, description)
-            for (itemname, description) in items
+            for (itemname, description) in items.items()
         }
 
     def look(self):
