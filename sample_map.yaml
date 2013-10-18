@@ -2,13 +2,16 @@ INITIAL:
     title: The main street
     description: You are on the main street, it's 5 minutes to noon. You can see a long queue at entrance to your shop. You can clearly see there's nothing on the shelves. 
     directions:
-        N: second
-second:
-    title: Second room
-    description: You are in some other room
+        N: shop
+shop:
+    title: You are in the shop.
+    description: You somehow managed to pass the angry crowds.
     directions:
         N: third
         S: INITIAL
+    items:
+        shopkeeper: The lady looks like she's in her late 50s. She's wearing dirty uniform and she's smoking a cigarete.
+        shelves: You were right. They are all empty, but it looks like all the products are stored under the checkout desk.
 third:
     title: Third room
     description: And that's about all
