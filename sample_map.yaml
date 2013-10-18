@@ -1,6 +1,6 @@
 INITIAL:
-    title: Starting room
-    description: You start in some room
+    title: The main street
+    description: You are on the main street, it's 5 minutes to noon. You can see a long queue at entrance to your shop. You can clearly see there's nothing on the shelves. 
     directions:
         N: second
 second:
