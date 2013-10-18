@@ -11,6 +11,8 @@ class Game:
 
     def look_item(self, item):
         position = self.get_position()
+        if item == "shroom":
+            return "You eat a magic shroom and are suddenly transported to a magic land\n YOU WIN"
         if item in position.items:
             return position.items[item].look()
         return  "Can't look at {}".format(item)
