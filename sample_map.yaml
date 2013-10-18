@@ -2,7 +2,7 @@ INITIAL:
     title: The main street
     description: You are on the main street, it's 5 minutes to noon. You can see a long queue at entrance to your shop. You can clearly see there's nothing on the shelves. 
     directions:
-        N: shop
+        shop: shop
     items:
         empty_bottles: You can see a pile of empty, vodka bottles in front of the shop.
         napping_gentlemen: You see an older gent, sleeping next to the stack of bottles, snoring loudly. You can smell he's did have a shower for ages.
@@ -10,8 +10,8 @@ shop:
     title: You are in the shop.
     description: You somehow managed to pass the angry crowds.
     directions:
-        S: INITIAL
-        N: storage_room
+        street: INITIAL
+        storage_room: storage_room
     items:
         shopkeeper: The lady looks like she's in her late 50s. She's wearing dirty uniform and she's smoking a cigarete.
         shelves: You were right. They are all empty, but it looks like all the products are stored under the checkout desk.
@@ -19,8 +19,9 @@ storage_room:
     title: You are in the storage room.
     description: Supprisingly the storage room is stuffed with various products. It doesn't really make any sense, but apparently that's how they do bussines here.
     directions:
-        S: shop
+        shop: shop
     items:
-        shroom: You can smell it from the distance. The mushroom is masive and green. You suddenly feel like you have to have a bit.
+        shroom: You can smell it from the distance. The mushroom is masive and green. You suddenly feel like you have to have a bite.
+
 
  
