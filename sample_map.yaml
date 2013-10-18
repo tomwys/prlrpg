@@ -10,8 +10,8 @@ shop:
     title: You are in the shop.
     description: You somehow managed to pass the angry crowds.
     directions:
-        N: INITIAL
-        S: storage_room
+        S: INITIAL
+        N: storage_room
     items:
         shopkeeper: The lady looks like she's in her late 50s. She's wearing dirty uniform and she's smoking a cigarete.
         shelves: You were right. They are all empty, but it looks like all the products are stored under the checkout desk.
