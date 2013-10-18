@@ -39,5 +39,4 @@ class Map(dict):
         """Move to another position."""
         if direction not in self.position.directions:
             raise InvalidMove()
-        self.position = self[direction]
-        print(self.position.look())
+        self.position = self[self.position.directions[direction]]
