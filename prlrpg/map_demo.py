@@ -7,6 +7,7 @@ if __name__ == '__main__':
         data = yaml.load(f)
     map = Map(data)
     while True:
-        print(map.position.look())
         direction = input()
+        if direction.startswith('look'):
+            item = direction
         map.move(direction)
