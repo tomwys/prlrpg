@@ -1,0 +1,16 @@
+INITIAL:
+    title: Starting room
+    description: You start in some room
+    directions:
+        N: second
+second:
+    title: Second room
+    description: You are in some other room
+    directions:
+        N: third
+        S: INITIAL
+third:
+    title: Third room
+    description: And that's about all
+    directions:
+        S: second
